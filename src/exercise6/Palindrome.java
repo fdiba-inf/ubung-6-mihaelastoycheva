@@ -8,7 +8,7 @@ public class Palindrome {
         int number = input.nextInt();
         int number2 = number;
         int first = number;
-        int counter = 1;
+        int counter = 0;
 
         while (number != 0){
           number = number / 10;
